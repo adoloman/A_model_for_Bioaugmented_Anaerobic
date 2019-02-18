@@ -76,13 +76,13 @@ Write or copy existing protocol as .xml-file to folder ```protocols``` of main i
 
 ## 3.2. Specify your protocol location for simulation
 Open file ```Constants.java``` located in ```'iDynoMICs_root_folder'/src/SearchEngine/Constants.java```. In my case it is: ```C:/iDynoMICs/src/SearchEngine/Constants.java``` and edit values of variables:
-- ```OUTPUT_PATH``` : ```'iDynoMICs_root_folder'\\resultss\\Out.txt```
-- ```RESULT_PATH``` : ```'iDynoMICs_root_folder'\\resultss```
+- ```OUTPUT_PATH``` : ```'iDynoMICs_root_folder'\\results\\Out.txt```
+- ```RESULT_PATH``` : ```'iDynoMICs_root_folder'\\results```
 - ```XML_PATH``` : ```'iDynoMICs_root_folder'\\protocols\\'your_protocol_name'.xml```
 
 In my case they were:
-- ```OUTPUT_PATH``` : ```C:\\iDynoMICs\\resultss\\Out.txt```
-- ```RESULT_PATH``` : ```C:\\iDynoMICs\\resultss```
+- ```OUTPUT_PATH``` : ```C:\\iDynoMICs\\results\\Out.txt```
+- ```RESULT_PATH``` : ```C:\\iDynoMICs\\results```
 - ```XML_PATH``` : ```C:\\iDynoMICs\\protocols\\test_protocol.xml```
 
 Save your changes.

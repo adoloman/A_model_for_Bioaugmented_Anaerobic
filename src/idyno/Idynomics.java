@@ -96,7 +96,7 @@ public class Idynomics {
 	
 	private static boolean deterministicStart=true;
 	
-	static //private static String pathName="D:\\Updated Workspace\\iDynoMiCS\\resultss\\Contact(20160218_0212)\\Contact.xml";
+	static //private static String pathName="D:\\Updated Workspace\\iDynoMiCS\\results\\Contact(20160218_0212)\\Contact.xml";
 	
 	String filepath =Constants.XML_PATH;
 	private static String pathName=filepath;
@@ -266,7 +266,7 @@ public class Idynomics {
 
 			// bvm 10.2.2009
 			// create the output file name using the protocol file title too
-			resultDir = _activePath[iSimul].replace("protocol", "results")
+			resultDir = Constants.RESULT_PATH + File.separator
 			+ _protocolFile[iSimul].replace(".xml", "(")
 			+ LogFile.getDateFileName() + ")";
 			System.out.println("result dir is: "+ resultDir);

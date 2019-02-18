@@ -25,7 +25,7 @@ public class SpacialAnalysisOfSpecies_Amitesh {
 
     {
 
-        String filepath = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\new2(20171224_1754)\\agent_State\\agent_State(1500).xml";
+        String filepath = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\results\\new2(20171224_1754)\\agent_State\\agent_State(1500).xml";
 
 
         DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();

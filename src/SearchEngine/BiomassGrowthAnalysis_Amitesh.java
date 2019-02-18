@@ -28,7 +28,7 @@ public class BiomassGrowthAnalysis_Amitesh {
     {
         String RESULT_FILE_NAME = "new2(20171224_1754)";   // Enter the simulation name here
         String filepath = null;
-        String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\";
+        String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\results\\";
         String FILEPATH = RESULT_PATH + RESULT_FILE_NAME + "\\agent_Sum";
         File dir = new File(RESULT_PATH + RESULT_FILE_NAME + "/graphs");
 

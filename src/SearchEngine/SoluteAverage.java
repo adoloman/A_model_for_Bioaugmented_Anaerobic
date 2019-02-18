@@ -14,7 +14,7 @@ import org.apache.commons.io.comparator.LastModifiedFileComparator;
 
 public class SoluteAverage {
 	
-	//private static final String RESULT_PATH = "C:\\Users\\Honey\\Desktop\\safe\\cDynomics\\cDynomicsV1\\iDyno\\resultss\\";
+	//private static final String RESULT_PATH = "C:\\Users\\Honey\\Desktop\\safe\\cDynomics\\cDynomicsV1\\iDyno\\results\\";
 	private static String separator = "	";
 
 	//public static void main(String[] args) throws IOException {

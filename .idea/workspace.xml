@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18714da-a20d-4901-bffc-9dba18c26c2a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/How to with IntelliJ IDEA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/How to with IntelliJ IDEA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/idyno/Idynomics.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/idyno/Idynomics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/BiomassGrowthAnalysis_Amitesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/BiomassGrowthAnalysis_Amitesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/DeadCellsspacialDistributionCsvWriter_Amitesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/DeadCellsspacialDistributionCsvWriter_Amitesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/MaximumSoluteValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/MaximumSoluteValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/SoluteAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/SoluteAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/SoluteAverageFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/SoluteAverageFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/SpacialAnalysisOfSpecies_Amitesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/SpacialAnalysisOfSpecies_Amitesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/SpeciesCount_Amitesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/SpeciesCount_Amitesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/spacialDistributionCsvWriter_Amitesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/spacialDistributionCsvWriter_Amitesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iDynoOptimizer/Sweep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iDynoOptimizer/Sweep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/idyno/Idynomics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/idyno/Idynomics.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
@@ -33,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            <state relative-caret-position="85">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -50,11 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bulk not</find>
-      <find>678</find>
-      <find>writeRe</find>
-      <find>HONEY</find>
-      <find>Nan</find>
       <find>_updateByReaction</find>
       <find>updateBulkByReaction</find>
       <find>solutes</find>
@@ -80,6 +91,11 @@
       <find>centerX</find>
       <find>MaximumGranuleRadius</find>
       <find>haldane</find>
+      <find>protocol</find>
+      <find>resultPathFull</find>
+      <find>_resultPath</find>
+      <find>result dir is</find>
+      <find>resultss</find>
     </findStrings>
     <replaceStrings>
       <replace>FILEPATH</replace>
@@ -87,6 +103,7 @@
       <replace>d</replace>
       <replace>m</replace>
       <replace>o</replace>
+      <replace>results</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Bio research\Work space\Cdynomics_Amitesh\src\simulator\geometry\boundaryConditions</dir>
@@ -127,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/simulator/Simulator.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/CellRatioAnalysis.java" />
         <option value="$PROJECT_DIR$/src/simulator/AgentContainer.java" />
-        <option value="$PROJECT_DIR$/src/idyno/Idynomics.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/SoluteAverageFull.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/MaximumSoluteValue.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/nametest.java" />
@@ -135,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/SearchEngine/DeadCellsspacialDistributionCsvWriter_Amitesh.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/spacialDistributionCsvWriter_Amitesh.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/BiomassGrowthAnalysis_Amitesh.java" />
+        <option value="$PROJECT_DIR$/src/idyno/Idynomics.java" />
         <option value="$PROJECT_DIR$/src/SearchEngine/Constants.java" />
       </list>
     </option>
@@ -156,8 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +189,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,7 +407,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27383864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2775061" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -702,14 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/idyno/Idynomics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="177" column="47" selection-start-line="177" selection-start-column="47" selection-end-line="177" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -797,10 +806,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protocols/agent_State(1500).xml" />
+    <entry file="file://$PROJECT_DIR$/src/idyno/Idynomics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="268" column="48" selection-start-line="268" selection-start-column="48" selection-end-line="268" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        <state relative-caret-position="85">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>

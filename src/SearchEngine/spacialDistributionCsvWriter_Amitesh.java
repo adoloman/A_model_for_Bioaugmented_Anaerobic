@@ -27,7 +27,7 @@ public class spacialDistributionCsvWriter_Amitesh {
     public static void main(String args[]) throws ParserConfigurationException, SAXException, IOException, TransformerException
 
     {
-        final String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\";
+        final String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\results\\";
         String name = "mature granule without desulfovibrio(20180124_1839)\\2.3(20180125_1830)";
         String[] names = new String[1000000];
         List<String> outputLines = new ArrayList<String>();
