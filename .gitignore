@@ -6,7 +6,3 @@
 
 /resultss/
 !/resultss/.gitkeep
-
-# Eclipse JAVA EDA files
-/.metadata/
-/.settings/
