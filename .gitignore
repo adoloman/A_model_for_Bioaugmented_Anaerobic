@@ -1,6 +1,8 @@
+# MacOS filesystem data
 /.DS_Store
-/.idea
-/.idea/
+
+# /.idea
+# /.idea/
 /.metadata/
 /.settings/
 /resultss/
