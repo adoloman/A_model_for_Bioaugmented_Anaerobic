@@ -3,7 +3,10 @@
 
 # /.idea
 # /.idea/
-/.metadata/
-/.settings/
+
 /resultss/
 !/resultss/.gitkeep
+
+# Eclipse JAVA EDA files
+/.metadata/
+/.settings/
