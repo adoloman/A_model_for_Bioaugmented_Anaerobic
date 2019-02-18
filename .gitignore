@@ -1,4 +1,4 @@
 .DS_Store
-.idea
-.metadata
-.settings
+.idea/
+.metadata/
+.settings/
