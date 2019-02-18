@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18714da-a20d-4901-bffc-9dba18c26c2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/BiomassGrowthAnalysis_Amitesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/BiomassGrowthAnalysis_Amitesh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/DeadCellsspacialDistributionCsvWriter_Amitesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/DeadCellsspacialDistributionCsvWriter_Amitesh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/MaximumSoluteValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/MaximumSoluteValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/SoluteAverageFull.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/SoluteAverageFull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/SpacialAnalysisOfSpecies_Amitesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/SpacialAnalysisOfSpecies_Amitesh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/SpeciesCount_Amitesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/SpeciesCount_Amitesh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/spacialDistributionCsvWriter_Amitesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/spacialDistributionCsvWriter_Amitesh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/SearchEngine/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/SearchEngine/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/iDynoOptimizer/Sweep.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/iDynoOptimizer/Sweep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchEngine/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchEngine/SearchEngineDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/SearchEngineDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntelliJ_instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJ_instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions_images/MainClass_replacement_2.PNG" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
@@ -41,17 +30,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -401,7 +380,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2811736" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -412,7 +390,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48511904" visible="true" weight="0.17917134" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48511904" weight="0.17917134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -812,7 +790,7 @@
     <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -55,20 +55,20 @@ And press OK.
 ## 2.3. Configure the main class of project
 Go to ```Run``` -> ```Edit configurations```
 You will see the following window:
-![MainClass_replacement](instructions_images/MainClass_replacement.PNG)
+![MainClass_replacement](instructions_images/mainclass_replacement.png)
 
 Hit the button with ```...``` to the right from Main Class field:
-![MainClass_replacement_2](instructions_images/MainClass_replacement_2.PNG)
+![MainClass_replacement_2](instructions_images/mainclass_replacement_2.png)
 And you will get following window:
-![class_choise](instructions_images/class_choise.PNG)
+![class_choise](instructions_images/class_choise.png)
 Switch to tab "Project" and switch to file located ```'iDynoMICs_root_folder'/src/idyno/Idynomics.java```
 NB! : In selection window the file may be shown without extension.
 
 In my case it is ```C:/iDynoMICs/src/idyno/Idynomics.java``` :
-![class_selected](instructions_images/class_selected.PNG)
+![class_selected](instructions_images/class_selected.png)
 And press OK.
 Now it will return to previous window, where you need to press OK.
-![configured](instructions_images/configured.PNG)
+![configured](instructions_images/configured.png)
 
 # 3. Configure simulation
 ## 3.1. Get the protocol of simulation
@@ -92,4 +92,4 @@ You can now run simulation with one of following ways:
 1. Press ```Shift```+```F10```
 2. Go to ```Run``` -> ```Run Idynomics```
 3. Hit the run button:
-![launch](instructions_images/Launch_simulation.PNG)
+![launch](instructions_images/launch_simulation.png)
