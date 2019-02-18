@@ -20,7 +20,7 @@ public class SearchEngineDriver {
 	
 		Map<String,String> map=new HashMap<String,String>();
 		XMLReader obj= new XMLReader();
-		File file=new File("Out.txt");
+		File file=new File(Constants.OUTPUT_PATH);
 		for(double glucose=0.1;glucose<=0.4;glucose=glucose+0.05)			
 		{
 			

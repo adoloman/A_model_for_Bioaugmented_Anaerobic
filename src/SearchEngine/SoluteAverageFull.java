@@ -14,7 +14,7 @@ import org.apache.commons.io.comparator.LastModifiedFileComparator;
 
 public class SoluteAverageFull {
 
-    private static final String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\";
+    private static final String RESULT_PATH = "D:\\Bio research\\Work space\\Cdynomics_Amitesh\\results\\";
     private static String separator = " ";
 
     public static void main(String[] args) throws IOException {

@@ -1,12 +1,12 @@
 package SearchEngine;
 
 public class Constants {
-	//Give the path based on where the files areS located
-	/*public static  String OUTPUT_PATH="Out.txt";
-	public static  String RESULT_PATH="C:\\Users\\Honey\\Desktop\\cDynomicsV4\\iDyno\\iDyno\\resultss\\";
-	public static  String XML_PATH="C:\\Users\\Honey\\Desktop\\cDynomicsV4\\iDyno\\iDyno\\protocols\\agit1.xml";*/
-	public static  String OUTPUT_PATH="D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\Out.txt";
-	public static  String RESULT_PATH="D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss";
-	public static  String XML_PATH="D:\\Bio research\\Work space\\Cdynomics_Amitesh\\resultss\\new2(20171217_1558)\\new2.4 - Copy.xml";
-	//public static  String XML_PATH="D:\\Bio research\\Work space\\Cdynomics_Amitesh\\protocols\\areatest.xml";
+	// Give the path based on where the files are located
+	// Location of protocol (as .xml-file)
+	public static  String XML_PATH="C:\\iDynoMICs\\protocols\\test_protocol.xml";
+	// Folder for simulation results
+	// Inside of this folder a sub-folder will be created as "protocol_name"_("timestamp")
+	public static  String RESULT_PATH="C:\\iDynoMICs\\results";
+
+	public static  String OUTPUT_PATH="C:\\iDynoMICs\\results\\Out.txt";
 }

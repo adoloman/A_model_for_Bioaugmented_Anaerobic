@@ -418,10 +418,10 @@ public class Sweep {
 
     }
 
-    private static String[] parseMiscFiles(String miscResultsString) {
-        if (miscResultsString == null || miscResultsString.isEmpty()) return null;
+    private static String[] parseMiscFiles(String miscresultstring) {
+        if (miscresultstring == null || miscresultstring.isEmpty()) return null;
 
-        return miscResultsString.trim().split(",");
+        return miscresultstring.trim().split(",");
     }
 
 
