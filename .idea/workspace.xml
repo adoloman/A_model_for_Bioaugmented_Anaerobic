@@ -3,69 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f18714da-a20d-4901-bffc-9dba18c26c2a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/0.5mmGranule.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/Clostrodium2test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/Initialisation_Error_Log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/M2test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/M2test1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/ReactorScale.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/agent_State(1500).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/agit1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/agit1bigscale.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/areatest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/just species.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/mature granule without desulfovibrio.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/new2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/ContactDelin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Contactbk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/N10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/N11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/N9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish (2).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish (3).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish7chemo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish7org.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newish8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/Newishtest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/agit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/N9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/createMovie.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/createPics.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotAgents.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotContour.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotMix.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotProfile.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotTime.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/showRunInfo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/agentListToGrid.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/calcAgentData.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/calcBiofilmData.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getAgentData.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getBulkData.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getDirNames.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getEnvData.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getFileNames.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getListOfIterates.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getProgramPath.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/idCleanUp.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/plotAgentStructure.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/displaySolute.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/loadAgents.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/loadSolute.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/makeMovie.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/makePic.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/removePadding.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/unzipSelect.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/unzipfiles.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/only haldane kinetic reaction working fine .xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/results_analysis_R/RFunctions.r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocols/test_protocol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/protocols/test_protocol.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchEngine/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/Constants.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
@@ -208,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
@@ -219,8 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -453,7 +390,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27078238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27383864" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,7 +399,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48511904" visible="true" weight="0.17917134" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48511904" weight="0.17917134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
           <caret line="246" column="70" selection-start-line="246" selection-start-column="70" selection-end-line="246" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14824">
           <caret line="954" column="45" selection-start-line="954" selection-start-column="45" selection-end-line="954" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,8 +647,8 @@
         <state relative-caret-position="244">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="22" />
           <folding>
-            <element signature="e#1225#1226#0" expanded="false" />
-            <element signature="e#1256#1257#0" expanded="false" />
+            <element signature="e#1225#1226#0" />
+            <element signature="e#1256#1257#0" />
           </folding>
         </state>
       </provider>
@@ -724,10 +658,10 @@
         <state relative-caret-position="246">
           <caret line="445" column="5" lean-forward="true" selection-start-line="445" selection-start-column="5" selection-end-line="445" selection-end-column="5" />
           <folding>
-            <element signature="e#0#17246#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#15771#15772#0" expanded="false" />
-            <element signature="e#15790#15791#0" expanded="false" />
+            <element signature="e#0#17246#0" />
+            <element signature="imports" />
+            <element signature="e#15771#15772#0" />
+            <element signature="e#15790#15791#0" />
           </folding>
         </state>
       </provider>
@@ -737,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="1407" column="65" lean-forward="true" selection-start-line="1407" selection-start-column="65" selection-end-line="1407" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +679,7 @@
         <state relative-caret-position="-100">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -762,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="1272" column="58" lean-forward="true" selection-start-line="1272" selection-start-column="58" selection-end-line="1272" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,11 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protocols/agent_State(1500).xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-135792" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/agent_State(1500).xml" />
     <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
