@@ -2,8 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18714da-a20d-4901-bffc-9dba18c26c2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/0.5mmGranule.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/Clostrodium2test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/Initialisation_Error_Log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/M2test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/M2test1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/ReactorScale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/agent_State(1500).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/agit1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/agit1bigscale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/areatest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/just species.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/mature granule without desulfovibrio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/new2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/ContactDelin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Contactbk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/N10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/N11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/N9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish (3).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish7chemo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish7org.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newish8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/Newishtest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/agit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/N9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/createMovie.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/createPics.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotAgents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotContour.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotMix.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotProfile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/plotTime.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/showRunInfo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/agentListToGrid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/calcAgentData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/calcBiofilmData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getAgentData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getBulkData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getDirNames.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getEnvData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getFileNames.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getListOfIterates.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/getProgramPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/idCleanUp.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines2D/utilities/plotAgentStructure.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/displaySolute.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/loadAgents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/loadSolute.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/makeMovie.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/makePic.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/removePadding.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/unzipSelect.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/old/results_analysis_matlab/routines_general/unzipfiles.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/only haldane kinetic reaction working fine .xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/results_analysis_R/RFunctions.r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols/test_protocol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/protocols/test_protocol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine/Constants.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
@@ -31,20 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/ComplexArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -155,7 +208,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
@@ -166,6 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +228,15 @@
               <item name="iDynoMICs" type="b2602c69:ProjectViewProjectNode" />
               <item name="iDynoMICs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="iDynoMICs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iDynoMICs" type="462c0819:PsiDirectoryNode" />
+              <item name="protocols" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,8 +390,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadCellsspacialDistributionCsvWriter_Amitesh" />
       <item itemvalue="Application.Idynomics" />
+      <item itemvalue="Application.DeadCellsspacialDistributionCsvWriter_Amitesh" />
       <item itemvalue="Application.MaximumSoluteValue" />
       <item itemvalue="Application.SpacialAnalysisOfSpecies_Amitesh" />
       <item itemvalue="Application.SpeciesCount_Amitesh" />
@@ -393,8 +451,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26772615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27078238" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,14 +462,14 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48511904" weight="0.17917134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48511904" visible="true" weight="0.17917134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51488096" side_tool="true" weight="0.17467248" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32922733" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281075" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -476,13 +535,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/simulator/detachment/ConnectedVolume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simulator/geometry/boundaryConditions/AllBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -806,17 +858,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/ComplexArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ComplexArray.java">
+    <entry file="file://$PROJECT_DIR$/protocols/agent_State(1500).xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-135792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchEngine/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>
