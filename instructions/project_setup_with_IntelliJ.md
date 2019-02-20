@@ -57,6 +57,7 @@ Click ```+``` button and select ```Import Module```:
 Now add 2 modules from repository which are located at:
 - ```'repository_root_folder'/cDynomics_Amitesh.iml```
 - ```'repository_root_folder'/RemoteSystemsTempFiles\RemoteSystemsTempFiles.iml```
+
 In scope of this example they are:
 - ```C:\iDynoMICs\cDynomics_Amitesh.iml```
 - ```C:\iDynoMICs\RemoteSystemsTempFiles\RemoteSystemsTempFiles.iml```
@@ -129,4 +130,4 @@ You can now run simulation with one of following ways:
 2. Go to ```Run``` -> ```Run Idynomics```
 ![run_test](./images/project_import/21._run_test.png)
 3. Hit the ```Run``` button:
-![launch](./images/Launch_simulation.png)
+![launch](./images/launch_simulation.png)
