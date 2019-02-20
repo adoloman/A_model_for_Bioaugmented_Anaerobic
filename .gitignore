@@ -3,13 +3,13 @@
 
 # IntelliJ IDEA environment files/folders
 /.idea
-/.idea/
+/.idea/*
 
 # Eclipse for Java developers files/folders
 /.metadata
-/.metadata/
+/.metadata/*
 /.settings
-/.settings/
+/.settings/*
 .classpath
 .project
 
