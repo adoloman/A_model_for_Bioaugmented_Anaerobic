@@ -17,7 +17,7 @@
       <param name="timeStepIni" unit="hour">1</param>
       <param name="timeStepMin" unit="hour">1</param>
       <param name="timeStepMax" unit="hour">1</param>
-      <param name="endOfSimulation" unit="hour">300</param><!--60days-->
+      <param name="endOfSimulation" unit="hour">300</param>
     </timeStep>
     
     <!-- The AGENTTIMESTEP which should always be EQUAL or LOWER than the global time step -->

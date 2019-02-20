@@ -1,2 +1,0 @@
-javac -classpath "src/iDynoOptimizer;src/lib/*" -d out -sourcepath src src/iDynoOptimizer/Driver.java
-java -Xmx3g -classpath out;out/iDynoOptimizer/* iDynoOptimizer.Driver

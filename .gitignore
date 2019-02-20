@@ -1,8 +1,19 @@
 # MacOS filesystem data
 /.DS_Store
 
-# /.idea
-# /.idea/
+# IntelliJ IDEA environment files/folders
+/.idea
+/.idea/*
 
+# Eclipse for Java developers files/folders
+/.metadata
+/.metadata/*
+/.settings
+/.settings/*
+.classpath
+.project
+
+# Default folder for results output
 /results/
-!/results/.gitkeep
+# Folder for binaries. Binaries are re-build after every change in code!
+/bin/
