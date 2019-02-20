@@ -1,8 +1,17 @@
 # MacOS filesystem data
 /.DS_Store
 
-# /.idea
-# /.idea/
+# IntelliJ IDEA environment files/folders
+/.idea
+/.idea/
+
+# Eclipse for Java developers files/folders
+/.metadata
+/.metadata/
+/.settings
+/.settings/
+.classpath
+.project
+
 
 /results/
-!/results/.gitkeep
