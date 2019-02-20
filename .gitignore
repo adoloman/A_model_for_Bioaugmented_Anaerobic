@@ -15,3 +15,5 @@
 
 
 /results/
+# Folder for binaries. Binaries are re-build after every change in code!
+/bin/
