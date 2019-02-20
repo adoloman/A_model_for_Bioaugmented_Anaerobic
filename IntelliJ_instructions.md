@@ -62,10 +62,10 @@ In scope of this example they are:
 - ```C:\iDynoMICs\RemoteSystemsTempFiles\RemoteSystemsTempFiles.iml```
 
 Now the dialog window should looks like this:
-![modules_imported](instructions_images/project_import/07._modules_imported.png)
+![modules_imported](instructions_images/project_import/07._modules_imported.PNG)
 
 Do _**NOT**_ close dialog, but switch to ```Project Settings``` ->  ```Project```:
-![project_settings](instructions_images/project_import/08._project_settings.png)
+![project_settings](instructions_images/project_import/08._project_settings.PNG)
 Now select the Java SDK with belongs to JAVA 8:
 ![select_SDK](instructions_images/project_import/09._select_JDK.png)
 and change the ```Project language level``` to ```8 - Lambdas, type annotations etc.```:
