@@ -1,6 +1,3 @@
-# Scripts takes all *.xml file from agent_Sum folder
-# and creates a plot to show the growth of each specie
-
 # Author : Yehor Pererva
 
 import os, sys
