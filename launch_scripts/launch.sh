@@ -37,11 +37,28 @@ for jar_file in $DYNO_PATH'/src/lib/'*.jar; do
 	CLASS_PATHs=$CLASS_PATHs:$jar_file
 done
 
+# Converting to unix
+#for file in $(find -L $SRC_PATH  -type f); do
+#	echo "$file"
+#	dos2unix "$file"
+#done
+
 #  Compiling
 cd $SRC_PATH
-$JAVAC_8_EXEC -classpath $CLASS_PATHs -d $DYNO_PATH'/bin' -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java' $SRC_PATH'/iDynoOptimizer/Driver.java' $SRC_PATH"/povray/*.java"
+mkdir $DYNO_PATH'/bin'
+rm -rf $DYNO_PATH'/bin/*'
+
+
+for file in $(find -L $SRC_PATH -name "*.java" -type f); do
+	#echo "$JAVAC_8_EXEC -encoding utf16 -classpath $CLASS_PATHs -d $DYNO_PATH'/bin/' -sourcepath $SRC_PATH $file"
+	$JAVAC_8_EXEC -encoding utf16 -classpath $CLASS_PATHs -d $DYNO_PATH'/bin/' -sourcepath $SRC_PATH $file
+done
+
+#$JAVAC_8_EXEC -classpath $CLASS_PATHs -d $DYNO_PATH'/bin' -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
+#$JAVAC_8_EXEC -classpath $CLASS_PATHs -d $DYNO_PATH'/bin' -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
 
 # launch command
 cd $DYNO_PATH
 echo "$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics"
 $JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
+#$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
