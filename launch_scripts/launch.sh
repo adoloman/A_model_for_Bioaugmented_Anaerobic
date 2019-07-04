@@ -3,25 +3,26 @@
 # sudo dnf -y install java-1.8.0-openjdk-devel
 java -version
 
-echo Content of '$PATH' variable
-echo $PATH
-echo Content of '$JAVA_HOME' variable
-echo $JAVA_HOME
-
-
 DYNO_PATH=$(dirname $(dirname $(realpath $0)))
 echo iDynoMICs project is located at "$DYNO_PATH"
 
+SRC_PATH=$DYNO_PATH'/src'
+
+# Collecting all path needed to build / compile / run
 CLASS_PATHs=$DYNO_PATH'/bin'
 echo $CLASS_PATHs
 
-DYNO_SRC_LIB_FOLDER=$DYNO_PATH'/src/lib'
-
-for jar_file in $DYNO_SRC_LIB_FOLDER/*.jar; do
+for jar_file in $DYNO_PATH'/src/lib/'*.jar; do
 	echo $jar_file
 	CLASS_PATHs=$CLASS_PATHs:$jar_file
 done
 
 cd $DYNO_PATH
-java -cp "$CLASS_PATHs" idyno.Idynomics
+# java 8 in Fedora is located at: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.fc30.x86_64/bin/java
+# the folder itself is available with a shortcut via /usr/lib/jvm/java-1.8.0
+# the folder itself is available with a shortcut via /usr/lib/jvm/java-1.8.0-openjdk
 
+# java 8 in Ubuntu is located at : /usr/lib/jvm/java-8-openjdk-amd64/bin/java
+# the folder itself is available with a shortcut via /usr/lib/jvm/java-1.8.0-openjdk-amd64
+JAVA_FOLDER=$(find '/usr/lib' -name "*java-1.8.0*" -type d)
+echo $JAVA_FOLDER
