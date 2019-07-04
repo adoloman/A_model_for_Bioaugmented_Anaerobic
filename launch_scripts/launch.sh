@@ -43,19 +43,14 @@ done
 #	dos2unix "$file"
 #done
 
+BIN_OUT=$DYNO_PATH'/bin'
+rm -rfv $BIN_OUT
+mkdir $BIN_OUT
+
 #  Compiling
 cd $SRC_PATH
-mkdir $DYNO_PATH'/bin'
-rm -rf $DYNO_PATH'/bin/*'
-
-
-for file in $(find -L $SRC_PATH -name "*.java" -type f); do
-	#echo "$JAVAC_8_EXEC -encoding utf16 -classpath $CLASS_PATHs -d $DYNO_PATH'/bin/' -sourcepath $SRC_PATH $file"
-	$JAVAC_8_EXEC -encoding utf16 -classpath $CLASS_PATHs -d $DYNO_PATH'/bin/' -sourcepath $SRC_PATH $file
-done
-
-#$JAVAC_8_EXEC -classpath $CLASS_PATHs -d $DYNO_PATH'/bin' -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
-#$JAVAC_8_EXEC -classpath $CLASS_PATHs -d $DYNO_PATH'/bin' -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+$JAVAC_8_EXEC -encoding cp1250 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
+$JAVAC_8_EXEC -encoding cp1250 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
 
 # launch command
 cd $DYNO_PATH
