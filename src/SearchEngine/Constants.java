@@ -9,4 +9,9 @@ public class Constants {
 	public static  String RESULT_PATH="C:\\iDynoMICs\\results";
 
 	public static  String OUTPUT_PATH="C:\\iDynoMICs\\results\\Out.txt";
+	// In case of running under Linux comment variables above and edit variables below:
+	// public static  String XML_PATH="/iDynoMICs/protocols/test_protocol.xml";
+	// public static  String RESULT_PATH="/iDynoMICs/results";
+	// public static  String OUTPUT_PATH="/iDynoMICs/results/Out.txt";
+
 }
