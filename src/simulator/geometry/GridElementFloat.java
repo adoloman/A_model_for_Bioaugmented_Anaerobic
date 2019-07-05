@@ -8,7 +8,7 @@
 /**
  * @since January 2004
  * @version 1.0
- * @author  * @author Jo„o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ * @author  * @author Jo√£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
  */
 
 package simulator.geometry;

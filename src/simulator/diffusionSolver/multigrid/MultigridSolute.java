@@ -1,16 +1,16 @@
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *_____________________________________________________
  * Implements static utility functions for used in multigrid method.
- * 
+ *
  */
- 
+
 /**
  * @since June 2006
  * @version 1.0
- * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author JoÃ£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 
@@ -103,14 +103,14 @@ public class MultigridSolute {
 		_nI = aSolute.getGridSizeI();
 		_nJ = aSolute.getGridSizeJ();
 		_nK = aSolute.getGridSizeK();
-		
+
 		//sonia:chemostat
 		if(Simulator.isChemostat){
 			_conc = new SoluteGrid[1];
 			_conc[0]= new SoluteGrid(_nI, _nJ, _nK, _domain._resolution, aSolute);
-			
+
 		}else{
-		
+
 		setReferenceSide();
 		_conc = new SoluteGrid[maxOrder];
 
@@ -276,9 +276,9 @@ public class MultigridSolute {
 			// refresh the padding elements to enforce
 			// boundary conditions for all solutes
 			_conc[order].refreshBoundary();
-			
+
 			//new......honey
-			
+
 			jsw = ksw;
 			for (_k = nK; _k>=1; _k--, jsw = 3-jsw) {
 				isw = jsw;
@@ -321,7 +321,7 @@ public class MultigridSolute {
 			// refresh the padding elements to enforce
 			// boundary conditions for all solutes
 			_conc[order].refreshBoundary();
-		
+
 		}
 		return totalRes;
 	}
@@ -337,7 +337,7 @@ public class MultigridSolute {
 	}
 
 	private double computeLop(int order, double h2i) {
-		
+
 		return ( (_diff[2][1][1]+_diff[1][1][1])*(u[_i+1][_j][_k]-u[_i][_j][_k])
 		        +(_diff[0][1][1]+_diff[1][1][1])*(u[_i-1][_j][_k]-u[_i][_j][_k])
 		        +(_diff[1][2][1]+_diff[1][1][1])*(u[_i][_j+1][_k]-u[_i][_j][_k])
@@ -357,7 +357,7 @@ public class MultigridSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param res
 	 * @param order
 	 */
@@ -397,7 +397,7 @@ public class MultigridSolute {
 					}
 			}
 		}
-		
+
 		res[order].refreshBoundary();
 	}
 
@@ -438,8 +438,8 @@ public class MultigridSolute {
 			_rhs[order].setAllValueAt(0d);
 		}
 	}
-	
-	
+
+
 	public void randomSetMultigridCopies(double lBound, double uBound) {
 		for (int order = 0; order<maxOrder; order++) {
 			for(int i=0;i<_conc[order].getGridSizeI()+2;i++)
@@ -450,7 +450,7 @@ public class MultigridSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param value
 	 */
 	public void resetFinest(double value) {
@@ -497,7 +497,7 @@ public class MultigridSolute {
 	public SoluteGrid getGrid(){
 		return _conc[0];
 	}
-	
+
 	public void setFinest(SoluteGrid aGrid) {
 		_conc[maxOrder-1] = aGrid;
 	}
@@ -511,7 +511,7 @@ public class MultigridSolute {
 
 	/**
 	 * Determine order of the finest grid
-	 * 
+	 *
 	 */
 	public void setReferenceSide() {
 		_referenceSystemSide = ExtraMath.min(_nI, _nJ);
@@ -522,7 +522,7 @@ public class MultigridSolute {
 		_referenceSystemSide *= realGrid.getResolution();
 	}
 
-	
+
 	// this is meant to return the correct index value following
 	// the logic of setReferenceSide() above
 	private double referenceIndex(int i, int j, int k) {
@@ -532,7 +532,7 @@ public class MultigridSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 */
 	public void refreshDiffBoundaries(int order) {
 		for (int i = 0; i<_domain.getAllBoundaries().size(); i++) {

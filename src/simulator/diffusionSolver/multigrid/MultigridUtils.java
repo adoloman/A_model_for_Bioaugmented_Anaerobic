@@ -1,16 +1,16 @@
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *_____________________________________________________
  * Implements static utility functions for used in multigrid method.
- * 
+ *
  */
- 
+
 /**
  * @since June 2006
  * @version 1.0
- * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author JoÃ£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 
@@ -33,7 +33,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * retuns log2(n - 1) * 0.5
-	 * 
+	 *
 	 * @param n
 	 * @return order of multigrid
 	 * @throws InvalidValueException
@@ -47,7 +47,7 @@ public abstract class MultigridUtils {
 	/**
 	 * Return the size of grid o orders smaller then n. Only to be used in
 	 * initialization of multigrid variables
-	 * 
+	 *
 	 * @param n
 	 * @return the size of coarsest grid
 	 */
@@ -62,7 +62,7 @@ public abstract class MultigridUtils {
 	/**
 	 * Restricts the data in matrix u to a grid one order coarser. Restriction
 	 * excludes border points.
-	 * 
+	 *
 	 * @param u finer grid
 	 * @param uc coarser grid
 	 */
@@ -90,15 +90,15 @@ public abstract class MultigridUtils {
 					uc[ic][jc][kc] += u[i+1][j+1][k]+u[i+1][j-1][k]+u[i-1][j+1][k]+u[i-1][j-1][k];
 					// 3rd dimension (4-C)
 					uc[ic][jc][kc] += 2*(lc==1 ? 0.0f : u[i][j][k+1]+u[i][j][k-1]);
-					// 3rd dimension (8-C)					
+					// 3rd dimension (8-C)
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i-1][j-1][k-1]+u[i-1][j][k-1]+u[i-1][j+1][k-1]);
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i][j-1][k-1]+u[i][j+1][k-1]);
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i+1][j-1][k-1]+u[i+1][j][k-1]+u[i+1][j+1][k-1]);
-					
+
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i-1][j-1][k+1]+u[i-1][j][k-1]+u[i-1][j+1][k+1]);
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i][j-1][k+1]+u[i][j+1][k+1]);
 					uc[ic][jc][kc] += (lc==1 ? 0.0f : u[i+1][j-1][k+1]+u[i+1][j][k-1]+u[i+1][j+1][k+1]);
-					
+
 					uc[ic][jc][kc] += 4*u[i][j][k];
 					uc[ic][jc][kc] *= nfac;
 				}
@@ -142,7 +142,7 @@ public abstract class MultigridUtils {
 	 * data in bl. Restriction excludes border points and points outside the
 	 * boundary layer (where bl >= 0.5). Points outside boundary layer are
 	 * skipped and, therefore, preserve their original value.
-	 * 
+	 *
 	 * @param u finer grid
 	 * @param uc coarser grid
 	 * @param blc boundary layer at corser grid
@@ -173,15 +173,15 @@ public abstract class MultigridUtils {
 						uc[ic][jc][kc] += u[i+1][j+1][k]+u[i+1][j-1][k]+u[i-1][j+1][k]+u[i-1][j-1][k];
 						// 3rd dimension (4-C)
 						uc[ic][jc][kc] += 2*(nK==1 ? 0.0f : u[i][j][k+1]+u[i][j][k-1]);
-						// 3rd dimension (8-C)					
+						// 3rd dimension (8-C)
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i-1][j-1][k-1]+u[i-1][j][k-1]+u[i-1][j+1][k-1]);
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i][j-1][k-1]+u[i][j+1][k-1]);
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i+1][j-1][k-1]+u[i+1][j][k-1]+u[i+1][j+1][k-1]);
-						
+
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i-1][j-1][k+1]+u[i-1][j][k-1]+u[i-1][j+1][k+1]);
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i][j-1][k+1]+u[i][j+1][k+1]);
 						uc[ic][jc][kc] += (nK==1 ? 0.0f : u[i+1][j-1][k+1]+u[i+1][j][k-1]+u[i+1][j+1][k+1]);
-						
+
 						uc[ic][jc][kc] += 4*u[i][j][k];
 						uc[ic][jc][kc] *= nfac;
 					}
@@ -215,11 +215,11 @@ public abstract class MultigridUtils {
 						uc[ic][jc][kc] += 0.5f*u[i][j][k];
 					}
 		coarseGrid.refreshBoundary();
-	}	
+	}
 	/**
 	 * Interpolates the data in matrix uc to a grid one order finner for cubic
 	 * matrices. Interpolation excludes border points.
-	 * 
+	 *
 	 * @param u finer grid
 	 * @param uc coarser grid
 	 */
@@ -306,14 +306,14 @@ public abstract class MultigridUtils {
 
 		fineGrid.refreshBoundary();
 	}
-	
+
 	/**
 	 * Interpolates the data in matrix uc to a grid one order finner for cubic
 	 * matrices for points inside the boundary layer, defined by data in bl.
 	 * Interpolation excludes border points and points outside the boundary
 	 * layer (where bl >= 0.5). Points outside boundary layer are skipped and,
 	 * therefore, preserve their original value.
-	 * 
+	 *
 	 * @param u finer grid
 	 * @param uc coarser grid
 	 * @param bl boundary layer at finer grid
@@ -363,7 +363,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Set all entries of a matrix to value val
-	 * 
+	 *
 	 * @param u
 	 * @param val
 	 */
@@ -376,7 +376,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Set all entries of a boolean matrix to value val
-	 * 
+	 *
 	 * @param u
 	 * @param val
 	 */
@@ -389,7 +389,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Add every entry of matrix b to the corresponding entry in matrix a
-	 * 
+	 *
 	 * @param a
 	 * @param b
 	 */
@@ -402,7 +402,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Subtract every entry of matrix b to the corresponding entry in matrix a.
-	 * 
+	 *
 	 * @param a
 	 * @param b
 	 */
@@ -415,7 +415,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Create matrix c = a - b
-	 * 
+	 *
 	 * @param a
 	 * @param b
 	 * @return c = a-b
@@ -434,7 +434,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Find minimum value in a 3D matrix
-	 * 
+	 *
 	 * @param a
 	 * @return the minimum value in the matrix
 	 */
@@ -449,7 +449,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Find maximum value in a 3D matrix
-	 * 
+	 *
 	 * @param a
 	 * @return the maximum value in the matrix
 	 */
@@ -464,7 +464,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * compute the norm of matrix (exceptuating padding)
-	 * 
+	 *
 	 * @param a
 	 * @return the norm of the matrix
 	 */
@@ -492,7 +492,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Return values in a matrix (excluding boundaries) as a formatted string
-	 * 
+	 *
 	 * @param matrix to output as string
 	 * @return string output
 	 */
@@ -519,7 +519,7 @@ public abstract class MultigridUtils {
 	 * Return values in a matrix (excluding boundaries) as a formatted string.
 	 * This method is used for boolean matrices. Values in output are 1 (for
 	 * true) or 0 (for false)
-	 * 
+	 *
 	 * @param matrix to output as string
 	 * @return string output
 	 */
@@ -544,7 +544,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Write the full matrix to a string
-	 * 
+	 *
 	 * @param matrix
 	 * @return a string with the matrix (space separated values)
 	 */
@@ -566,7 +566,7 @@ public abstract class MultigridUtils {
 
 	/**
 	 * Create a 2D graphics
-	 * 
+	 *
 	 * @param fileName the file to parse
 	 * @return 2D matrix
 	 */

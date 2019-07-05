@@ -1,19 +1,19 @@
 
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *______________________________________________________
- * DiffusionSolver is an abstract class used as parent for all diffusion_solvers 
+ * DiffusionSolver is an abstract class used as parent for all diffusion_solvers
  * you could define
- * 
+ *
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas D�tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu), Department of Engineering Sciences and Applied Mathematics, Northwestern University (USA) 
+ * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu), Department of Engineering Sciences and Applied Mathematics, Northwestern University (USA)
  */
 
 package simulator.diffusionSolver;

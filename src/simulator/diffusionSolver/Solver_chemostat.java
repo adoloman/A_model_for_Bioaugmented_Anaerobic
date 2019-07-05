@@ -11,7 +11,7 @@
 /**
  * @since October 2009
  * @version 1.0
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author SÃ³nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  */
 
 package simulator.diffusionSolver;

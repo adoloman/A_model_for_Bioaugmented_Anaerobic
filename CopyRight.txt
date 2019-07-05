@@ -2,9 +2,9 @@ Copyright holders for iDynoMiCS:
  
  * Laurent Lardon lardonl@supagro.inra.fr, DTU Environment, Technical University of Denmark (Denmark) & Laboratory of Environmental Biotechnology, INRA (France)
  * Brian Merkey, brim@env.dtu.dk (DTU Environment, Technical University of Denmark, Denmark) & bvm@northwestern.edu (Department of Engineering Sciences and Applied Mathematics, Northwestern University, USA)
- * Andreas Dötsch andreas.doetsch@helmholtz-hzi.de, Chronic Pseudomonas Infections Group, Helmholtz Centre for Infection Research (Germany)
- * João Xavier xavierj@mskcc.org, Computational biology research, Memorial Sloan-Kettering Cancer Center, New York (USA)
- * Sónia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
+ * Andreas DÃ¶tsch andreas.doetsch@helmholtz-hzi.de, Chronic Pseudomonas Infections Group, Helmholtz Centre for Infection Research (Germany)
+ * JoÃ£o Xavier xavierj@mskcc.org, Computational biology research, Memorial Sloan-Kettering Cancer Center, New York (USA)
+ * SÃ³nia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
  * Cristian Picioreanu C.Picioreanu@tudelft.nl, The Biofilm Research Group, Technical University of Delft (Netherlands)
  * Jan-Ulrich Kreft j.kreft@bham.ac.uk, Centre for Systems Biology, School of Biosciences, University of Birmingham (UK)
  * Barth Smets bfs@env.dtu.dk, DTU Environment, Technical University of Denmark (Denmark)
@@ -12,7 +12,7 @@ Copyright holders for iDynoMiCS:
  This software is a computer program whose purpose is to model and simulate 
  microbial communities in an individual-based way. It is described in detail in this paper:
  
- Lardon LA, Merkey BV, Martins S, Dötsch A, Picioreanu C, Kreft JU & Smets BF (2011).
+ Lardon LA, Merkey BV, Martins S, DÃ¶tsch A, Picioreanu C, Kreft JU & Smets BF (2011).
  iDynoMiCS: next-generation individual-based modelling of biofilms.
  Environmental Microbiology: in press
  http://dx.doi.org/10.1111/j.1462-2920.2011.02414.x
