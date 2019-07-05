@@ -1,4 +1,8 @@
 # Doesn work for now in full (!!!)
+# This script is for PowerShell 5.1 and higher
+
+# Changing default encoding to UTF-8
+$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
 
 # Looking for Java 8
 $java_folder = (Get-ChildItem -Path 'C:\Program Files\Java' -Filter "jdk*8*" -Directory).FullName
@@ -27,8 +31,12 @@ Get-ChildItem $root_src_lib -Filter *.jar | Foreach-Object {
 
 # Compiling (doesn't work for now)
 # Set-Location $root_src
+# UTF-8 is marginally supported as codepage 65001, but it is extremely buggy depending on the version of Windows.
 # $javac -encoding utf8 -classpath $classpath -d $root_bin -sourcepath $root_src $root_src'\idyno\Idynomics.java' $SRC_PATH'\iDynoOptimizer\Driver.java'
 
 # Launching (not tried yet)
 # Set-Location $root_bin
 # $java -Dfile.encoding=UTF-8 -classpath $classpath idyno.Idynomics
+
+
+Pause -Message "Press something..."
