@@ -18,7 +18,7 @@ echo $JAVAC_8_EXEC
 DYNO_PATH=$(dirname $(dirname $(realpath $0)))
 SRC_PATH=$DYNO_PATH'/src'
 
-# Collecting all path needed to build / compile / run
+echo 'Collecting all path needed to build / compile / run:'
 CLASS_PATHs=$DYNO_PATH'/bin'
 echo $CLASS_PATHs
 
@@ -37,18 +37,18 @@ for jar_file in $DYNO_PATH'/src/lib/'*.jar; do
 	CLASS_PATHs=$CLASS_PATHs:$jar_file
 done
 
+echo 'Purging previous build...'
 BIN_OUT=$DYNO_PATH'/bin'
-rm -rfv $BIN_OUT
+rm -rf $BIN_OUT
 mkdir $BIN_OUT
 
 #  Compiling
 cd $SRC_PATH
-#$JAVAC_8_EXEC -encoding windows-1252 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
-$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
-#$JAVAC_8_EXEC -encoding windows-1252 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+echo 'Compiling ...'
+$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java' $SRC_PATH'/iDynoOptimizer/Driver.java'
 
 # launch command
-cd $DYNO_PATH
-echo "$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics"
+cd $DYNO_PATH'/bin'
+echo 'Launching ...'
+#echo "$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics"
 $JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
-#$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
