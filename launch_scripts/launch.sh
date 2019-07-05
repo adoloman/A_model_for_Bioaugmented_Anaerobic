@@ -44,11 +44,11 @@ mkdir $BIN_OUT
 #  Compiling
 cd $SRC_PATH
 #$JAVAC_8_EXEC -encoding windows-1252 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
-$JAVAC_8_EXEC -encoding windows-1252 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
 #$JAVAC_8_EXEC -encoding windows-1252 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
 
 # launch command
 cd $DYNO_PATH
-echo "$JAVA_8_EXEC -Dfile.encoding=CP1252 -classpath $CLASS_PATHs idyno.Idynomics"
-$JAVA_8_EXEC -Dfile.encoding=CP1252 -classpath $CLASS_PATHs idyno.Idynomics
+echo "$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics"
+$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
 #$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics

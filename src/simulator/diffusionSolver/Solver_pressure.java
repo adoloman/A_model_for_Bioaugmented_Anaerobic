@@ -1,17 +1,17 @@
 
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *______________________________________________________
- * DiffusionSolver is an abstract class used as parent for all diffusion_solvers 
+ * DiffusionSolver is an abstract class used as parent for all diffusion_solvers
  * you could define
- * 
+ *
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas DÃ¶tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  */
 
@@ -36,7 +36,7 @@ public class Solver_pressure extends DiffusionSolver {
 	protected Simulator             mySim;
 	protected IsComputationDomain   _domain;
 
-	
+
 	public void init(Simulator aSimulator, XMLParser xmlRoot) {
 		super.init(aSimulator, xmlRoot);
 
@@ -48,7 +48,7 @@ public class Solver_pressure extends DiffusionSolver {
 
 		_bLayer = new SoluteGrid(_domain.getBiomass());
 		_bLayer.gridName = "boundaryLayer";
-		
+
 		_biovolume = new SoluteGrid(_domain.getBiomass());
 		_biovolume.gridName = "deltaVolume";
 

@@ -7,17 +7,17 @@ import utils.LogFile;
 
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *_____________________________________________________
  * Implements static utility functions for used in multigrid method.
- * 
+ *
  */
- 
+
 /**
  * @since June 2006
  * @version 1.0
- * @author Jo„o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author Jo√£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 
@@ -75,7 +75,7 @@ public class SinglegridPressure {
 			_conc = new SoluteGrid(_i, _j, _k, r, aSolute);
 			_rhs = new SoluteGrid(_i, _j, _k, r, aSolute);
 			_reac = new SoluteGrid(_i, _j, _k, r, aSolute);
-		
+
 	}
 
 	/* _______________ ______________________________________ */
@@ -210,7 +210,7 @@ public class SinglegridPressure {
 
 	/**
 	 * Determine order of the finest grid
-	 * 
+	 *
 	 */
 	public void setReferenceSide() {
 		_referenceSystemSide = ExtraMath.min(_nI, _nJ);
@@ -220,7 +220,7 @@ public class SinglegridPressure {
 		_referenceSystemSide -= 1;
 		_referenceSystemSide *= realGrid.getResolution();
 	}
-	
+
 	// this is meant to return the correct index value following
 	// the logic of setReferenceSide() above
 	private double referenceIndex(int i, int j, int k) {

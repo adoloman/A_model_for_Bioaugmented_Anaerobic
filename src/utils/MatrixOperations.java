@@ -1,15 +1,15 @@
 /**
- * Project iDynoMiCS (copyright -> see Idynomics.java) 
+ * Project iDynoMiCS (copyright -> see Idynomics.java)
  *______________________________________________________
  * Implements static utility functions for used in multigrid method.
- * 
+ *
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author  * @author Jo„o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author  * @author Jo√£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 package utils;
@@ -20,7 +20,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Set all entries of a matrix to value val
-     * 
+     *
      * @param u
      * @param val
      */
@@ -33,7 +33,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Add every entry of matrix b to the corresponding entry in matrix a
-     * 
+     *
      * @param a
      * @param b
      */
@@ -46,7 +46,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Add every entry of matrix b to the corresponding entry in matrix a
-     * 
+     *
      * @param a
      * @param b
      */
@@ -67,7 +67,7 @@ public abstract class MatrixOperations {
 	/**
      * Subtract every entry of matrix b from the corresponding entry in matrix
      * a.
-     * 
+     *
      * @param a
      * @param b
      */
@@ -80,7 +80,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Create matrix c = a - b
-     * 
+     *
      * @param a
      * @param b
      * @return c = a-b
@@ -99,7 +99,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Find minimum value in a 3D matrix
-     * 
+     *
      * @param a
      * @return the minimum value in the matrix
      */
@@ -114,7 +114,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Find maximum value in a 3D matrix
-     * 
+     *
      * @param a
      * @return the maximum value in the matrix
      */
@@ -129,7 +129,7 @@ public abstract class MatrixOperations {
 
 	/**
      * compute the norm of matrix (exceptuating padding)
-     * 
+     *
      * @param a
      * @return the norm of the matrix
      */
@@ -145,7 +145,7 @@ public abstract class MatrixOperations {
 		//return (double) Math.sqrt(norm/(a.length-1)/(a[1].length-1)/(a[1][1].length-1));
 		return (double) Math.sqrt(norm);
 	}
-	
+
 	public static double computeAverage(double[][][] a) {
 		return computeSum(a)/(a.length-2)/(a[0].length-2)/(a[0][0].length-2);
 	}
@@ -163,7 +163,7 @@ public abstract class MatrixOperations {
 					sum += a[i][j][k];
 		return sum;
 	}
-	
+
 	//sonia:chemostat 19.02.2010
 	public static double computeSumChemo(double[][][] a) {
 		double sum = 0;
@@ -185,7 +185,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Write the full matrix to a string
-     * 
+     *
      * @param matrix
      * @return a string with the matrix (space separated values)
      */
@@ -207,7 +207,7 @@ public abstract class MatrixOperations {
 
 	/**
      * Copy values from an array src to array dest
-     * 
+     *
      * @param dest write values to this array
      * @param src copy values from this array
      */

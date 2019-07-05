@@ -1,16 +1,16 @@
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *_____________________________________________________
  * Implements static utility functions for used in multigrid method.
- * 
+ *
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author Jo„o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author Jo√£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 
@@ -139,7 +139,7 @@ public class SimpleSolute {
 					if (bl[i][j][k]<BLTHRESH && realGrid.getAirDiffusivity()==0)
 						u[i][j][k]=0;
 	}
-	
+
 	public double relax(int order) {
 		int nI = _conc[order].getGridSizeI();
 		int nJ = _conc[order].getGridSizeJ();
@@ -154,13 +154,13 @@ public class SimpleSolute {
 		u = _conc[order].grid;
 		v = u.clone();
 		bl = _bLayer[order].grid;
-		
-		
+
+
 		//Changed by Farzin
 		//rd = _relDiff[order].grid;
 		rd = _domain.getDiffusivity().grid;
-		
-		
+
+
 		double lop, dlop, res;
 
 		// Apply an eventual modification of the local diffusivity for THIS
@@ -168,7 +168,7 @@ public class SimpleSolute {
 		refreshDiffBoundaries(order);
 
 		double totalRes = 0;
-							
+
 		// bvm 22.12.09: now allows red-black for 2d AND 3d
 		int ksw = 1;
 		int isw, jsw;
@@ -180,7 +180,7 @@ public class SimpleSolute {
 					for (_i = isw; _i<=nI; _i += 2) {
 
 						if (bl[_i][_j][_k]>=BLTHRESH || realGrid.getAirDiffusivity()>0) {
-							// Case: Inside boundary layer 
+							// Case: Inside boundary layer
 							// Changed by Farzin: OR IT CAN DIFFUSE THROUGH THE AIR
 							// Equations must be solved here
 
@@ -215,7 +215,7 @@ public class SimpleSolute {
 				for (_k = 1; _k <= nK; _k++) {
 					for (_j = 1; _j <= nJ; _j++) {
 						for (_i = 1; _i <= nI; _i++) {
-							
+
 							u[_i][_j][_k] = v[_i][_j][_k];
 						}
 					}
@@ -225,12 +225,12 @@ public class SimpleSolute {
 			for (_k = 1; _k <= nK; _k++) {
 				for (_j = 1; _j <= nJ; _j++) {
 					for (_i = 1; _i <= nI; _i++) {
-						
+
 						u[_i][_j][_k] = u[_i][_j][_k] - realGrid.decayRate*u[_i][_j][_k];
 					}
 				}
 			}
-			
+
 			// refresh the padding elements to enforce
 			// boundary conditions for all solutes
 			_conc[order].refreshBoundary();
@@ -241,7 +241,7 @@ public class SimpleSolute {
 	}
 
 	private void fillDiff() {
-		
+
 		_diff[0][1][1] = findLocalDiffusivity(_i-1,_j,_k);
 		_diff[2][1][1] = findLocalDiffusivity(_i+1,_j,_k);
 		_diff[1][0][1] = findLocalDiffusivity(_i,_j-1,_k);
@@ -257,7 +257,7 @@ public class SimpleSolute {
 //		_diff[1][1][2] = realGrid.diffusivity*rd[_i][_j][_k+1];
 //		_diff[1][1][1] = realGrid.diffusivity*rd[_i][_j][_k];
 	}
-	
+
 	private double findLocalDiffusivity(int i, int j, int k)
 	{
 		if(rd[i][j][k]==0)
@@ -303,7 +303,7 @@ public class SimpleSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param res
 	 * @param order
 	 */
@@ -357,7 +357,7 @@ public class SimpleSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param value
 	 */
 	public void resetFinest(double value) {
@@ -411,7 +411,7 @@ public class SimpleSolute {
 
 	/**
 	 * Determine order of the finest grid
-	 * 
+	 *
 	 */
 	public void setReferenceSide() {
 		_referenceSystemSide = ExtraMath.min(_nI, _nJ);
@@ -433,7 +433,7 @@ public class SimpleSolute {
 	}
 
 	/**
-	 * 
+	 *
 	 */
 	public void refreshDiffBoundaries(int order) {
 		for (int i = 0; i<_domain.getAllBoundaries().size(); i++) {

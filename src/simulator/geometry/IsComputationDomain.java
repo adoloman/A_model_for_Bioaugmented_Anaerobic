@@ -1,15 +1,15 @@
 /**
- * Project iDynoMiCS (copyright -> see Idynomics.java) 
+ * Project iDynoMiCS (copyright -> see Idynomics.java)
  *______________________________________________________
- * IsComputationDomain : interface describing mandatory methods for a 
- * computation domain object. The default class is "ComputationDomain" but other 
+ * IsComputationDomain : interface describing mandatory methods for a
+ * computation domain object. The default class is "ComputationDomain" but other
  * can be defined
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas DÃ¶tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  * ____________________________________________________________________________
  */
@@ -45,12 +45,12 @@ public interface IsComputationDomain {
      */
 	public LinkedList<AllBC> getAllBoundaries();
 	public AllBC getClosestBoundaryWithBulk(ContinuousVector cc);
-	
+
 	public SoluteGrid getBoundaryLayer();
 	public LinkedList<DiscreteVector> getBorder();
 	public SoluteGrid getDiffusivity();
 	public SoluteGrid getBiomass();
-	
+
 	public void refreshBioFilmGrids();
 
 }

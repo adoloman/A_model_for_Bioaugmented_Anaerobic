@@ -1,13 +1,13 @@
 /**
- * Project iDynoMiCS (copyright -> see Idynomics.java) 
+ * Project iDynoMiCS (copyright -> see Idynomics.java)
  */
 
 /**
- * 
- * @since March, 2004 
+ *
+ * @since March, 2004
  * @version 1.0
- * @author  * @author Jo„o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
- * 
+ * @author  * @author Jo√£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ *
  */
 
 package utils;
@@ -22,7 +22,7 @@ public class ZipArchive {
 	private String          _zipFileName;
 
 	/**
-	 * 
+	 *
 	 */
 	public ZipArchive(String zipFileName) throws IOException {
 		// create file

@@ -13,7 +13,7 @@
  * _______________________________________________________
  * @since Feb 2007
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas DÃ¶tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  */
 
@@ -71,7 +71,7 @@ public class UnitConverter {
 			out = 1e3;
 			unit = "mm";
 		}
-		if (lengthUnit.contains("µm")) {
+		if (lengthUnit.contains("Âµm")) {
 			out = 1;
 			unit = "microm";
 		}
@@ -115,13 +115,13 @@ public class UnitConverter {
 			unit = "mg";
 		}
 
-		if (massUnit.contains("µg")) {
+		if (massUnit.contains("ï¿½g")) {
 			out = 1e9;
-			unit = "µg";
+			unit = "ï¿½g";
 		}
 		if (massUnit.contains("ug")) {
 			out = 1e9;
-			unit = "µg";
+			unit = "ï¿½g";
 		}
 		if (massUnit.contains("fg")) {
 			out = 1;
@@ -147,13 +147,13 @@ public class UnitConverter {
 			unit = "L";
 		}
 
-		if (massUnit.contains("µm")) {
+		if (massUnit.contains("ï¿½m")) {
 			out = 1;
-			unit = "µm";
+			unit = "ï¿½m";
 		}
 		if (massUnit.contains("um")) {
 			out = 1;
-			unit = "µm";
+			unit = "ï¿½m";
 		}
 
 		if (massUnit.contains(unit+"-")) {

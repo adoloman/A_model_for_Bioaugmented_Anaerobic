@@ -1,19 +1,19 @@
 /**
  * Project iDynoMiCS (copyright -> see Idynomics.java)
- *  
+ *
  *______________________________________________________
  * Bulk is an object used to define the environment connec
  * Implements 3D vector of continuous spatial coordinates
  * Can be used to store Continuous coordinates or Movement vectors
- * 
+ *
  */
 
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas DÃ¶tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ * @author JoÃ£o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
  */
 
 package simulator.geometry;
@@ -126,14 +126,14 @@ public class ContinuousVector implements Cloneable, Serializable {
 
 	/**
 	 * Print coordinates to string
-	 * 
+	 *
 	 * @see java.lang.Object#toString()
 	 */
 //	public String toString() {
 //		return ExtraMath.toString(x, false)+",\t"+ExtraMath.toString(y, false)+",\t"
 //		        +ExtraMath.toString(z, false);
 //	}
-	
+
 	//CHEMOTAXIS
 	public String toString() {
 		return Double.toString(x)+",\t"+Double.toString(y)+",\t"
@@ -195,7 +195,7 @@ public class ContinuousVector implements Cloneable, Serializable {
 		this.y *= multiplier;
 		this.z *= multiplier;
 	}
-	
+
 	public void times(ContinuousVector cc) {
 		this.x *= cc.x;
 		this.y *= cc.y;
@@ -219,7 +219,7 @@ public class ContinuousVector implements Cloneable, Serializable {
 
 	/**
 	 * Normalize this Vector to unit length.
-	 * 
+	 *
 	 * @param newLength
 	 */
 	public void normalizeVector() {
@@ -230,7 +230,7 @@ public class ContinuousVector implements Cloneable, Serializable {
 
 	/**
 	 * Normalize this Vector to a given length.
-	 * 
+	 *
 	 * @param newLength
 	 */
 	public void normalizeVector(double newLength) {
@@ -258,15 +258,15 @@ public class ContinuousVector implements Cloneable, Serializable {
 	public double cosAngle(ContinuousVector cc) {
 		return (x*cc.x+y*cc.y+z*cc.z)/Math.sqrt((x*x+y*y+z*z)*(cc.x*cc.x+cc.y*cc.y+cc.z*cc.z));
 	}
-	
+
 	public double rectangleSide(ContinuousVector cc) {
 		return Math.abs(x-cc.x)*2+Math.abs(y-cc.y)*2;
 	}
-	
+
 	public double circleSide(double r) {
 		return 2*Math.PI*r;
 	}
-	
+
 	public Object clone() throws CloneNotSupportedException {
 		return super.clone();
 	}
