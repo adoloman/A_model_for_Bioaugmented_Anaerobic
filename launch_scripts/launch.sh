@@ -19,7 +19,7 @@ DYNO_PATH=$(dirname $(dirname $(realpath $0)))
 SRC_PATH=$DYNO_PATH'/src'
 
 echo 'Collecting all path needed to build / compile / run:'
-CLASS_PATHs=$DYNO_PATH'/bin'
+CLASS_PATHs=$SRC_PATH:$DYNO_PATH'/bin'
 echo $CLASS_PATHs
 
 for jar_file in $JAVA_FOLDER'/jre/lib/'*.jar; do
