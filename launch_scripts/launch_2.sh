@@ -74,3 +74,4 @@ $JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
 # renaming bin folder created by IDEA as bin_idea
 # and following command:
 # diff -qr ./bin ./bin_idea
+# IDEA created a lot of other files.
