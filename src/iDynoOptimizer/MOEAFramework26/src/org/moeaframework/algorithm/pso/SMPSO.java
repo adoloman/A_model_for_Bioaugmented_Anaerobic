@@ -41,7 +41,7 @@ import iDynoOptimizer.MOEAFramework26.src.org.moeaframework.core.variable.RealVa
  *       (2009).  SMPSO: A New PSO-based Metaheuristic for Multi-objective
  *       Optimization.  2009 IEEE Symposium on Computational Intelligence in
  *       Multi-Criteria Decision-Making, pp. 66-73.
- *   <li>Durillo, J. J., J. Garc�a-Nieto, A. J. Nebro, C. A. Coello Coello,
+ *   <li>Durillo, J. J., J. García-Nieto, A. J. Nebro, C. A. Coello Coello,
  *       F. Luna, and E. Alba (2009).  Multi-Objective Particle Swarm
  *       Optimizers: An Experimental Comparison.  Evolutionary Multi-Criterion
  *       Optimization, pp. 495-509.

@@ -1,12 +1,12 @@
 /**
- * Project iDynoMiCS (copyright -> see Idynomics.java) 
+ * Project iDynoMiCS (copyright -> see Idynomics.java)
  *_______________________________________________________
  * Static class used to convert units
  * Internal units :
  * Mass = femtograms (=1e-15 grams)
  * Length = micrometer (=1e-6 meter)
  * Time = hour
- * 
+ *
  */
 
 /**
@@ -23,7 +23,7 @@ import java.awt.Color;
 public class UnitConverter {
 
 	/**
-     * 
+     *
      * @param timeUnit
      * @return a factor to multiply to obtain the correct unit (hour)
      */
@@ -92,7 +92,7 @@ public class UnitConverter {
 	}
 
 	/**
-     * 
+     *
      * @param massUnit
      * @return
      */
@@ -115,13 +115,13 @@ public class UnitConverter {
 			unit = "mg";
 		}
 
-		if (massUnit.contains("�g")) {
+		if (massUnit.contains("µg")) {
 			out = 1e9;
-			unit = "�g";
+			unit = "µg";
 		}
 		if (massUnit.contains("ug")) {
 			out = 1e9;
-			unit = "�g";
+			unit = "ug";
 		}
 		if (massUnit.contains("fg")) {
 			out = 1;
@@ -147,13 +147,13 @@ public class UnitConverter {
 			unit = "L";
 		}
 
-		if (massUnit.contains("�m")) {
+		if (massUnit.contains("µm")) {
 			out = 1;
-			unit = "�m";
+			unit = "µm";
 		}
 		if (massUnit.contains("um")) {
 			out = 1;
-			unit = "�m";
+			unit = "um";
 		}
 
 		if (massUnit.contains(unit+"-")) {
