@@ -63,6 +63,7 @@ mkdir $BIN_OUT
 cd $SRC_PATH
 echo 'Compiling ...'
 $JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
 
 # launch command
 cd $DYNO_PATH'/bin'
@@ -73,5 +74,5 @@ $JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
 # Tried to compare folders, created by IDEA and from terminal via:
 # renaming bin folder created by IDEA as bin_idea
 # and following command:
-# diff -qr ./bin ./bin_idea
+# diff -qr ./bin ./bin_idea | grep "Only"
 # IDEA created a lot of other files.
