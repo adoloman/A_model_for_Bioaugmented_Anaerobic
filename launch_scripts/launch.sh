@@ -45,7 +45,8 @@ mkdir $BIN_OUT
 #  Compiling
 cd $SRC_PATH
 echo 'Compiling ...'
-$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java' $SRC_PATH'/iDynoOptimizer/Driver.java'
+$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
+$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
 
 # launch command
 cd $DYNO_PATH'/bin'
