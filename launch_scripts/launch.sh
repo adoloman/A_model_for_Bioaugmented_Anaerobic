@@ -52,4 +52,4 @@ $JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SR
 cd $DYNO_PATH'/bin'
 echo 'Launching ...'
 #echo "$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics"
-#$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
+$JAVA_8_EXEC -Dfile.encoding=UTF-8 -classpath $CLASS_PATHs idyno.Idynomics
