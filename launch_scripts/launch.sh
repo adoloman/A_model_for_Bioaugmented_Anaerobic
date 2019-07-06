@@ -32,10 +32,12 @@ for jar_file in $JAVA_FOLDER'/jre/lib/ext/'*.jar; do
 	CLASS_PATHs=$CLASS_PATHs:$jar_file
 done
 
-for jar_file in $DYNO_PATH'/src/lib/'*.jar; do
+for jar_file in $SRC_PATH'/lib/'*.jar; do
 	echo $jar_file
 	CLASS_PATHs=$CLASS_PATHs:$jar_file
 done
+
+CLASS_PATHs=$CLASS_PATHs:$SRC_PATH'/iDynoOptimizer'
 
 echo 'Purging previous build...'
 BIN_OUT=$DYNO_PATH'/bin'
@@ -45,8 +47,10 @@ mkdir $BIN_OUT
 #  Compiling
 cd $SRC_PATH
 echo 'Compiling ...'
-#$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/iDynoOptimizer/Driver.java'
-$JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+# Normally, it is compiled via:
+# $JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH $SRC_PATH'/idyno/Idynomics.java'
+# But in this case it doesn't compile all dependencies. Need to compile all java files
+find . -name "*.java" | xargs $JAVAC_8_EXEC -encoding utf8 -classpath $CLASS_PATHs -d $BIN_OUT -sourcepath $SRC_PATH
 
 # launch command
 cd $DYNO_PATH'/bin'

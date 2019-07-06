@@ -35,15 +35,15 @@ public class World {
 	 */
 
 	public void init(Simulator aSim, XMLParser worldRoot) {
-		// Create & register the defined bulks
+		System.out.println("Create & register the defined bulks");
 		for (XMLParser aBulkRoot : worldRoot.buildSetParser("bulk"))
 			bulkList.add(new Bulk(aSim, aBulkRoot));
-				
-		// Create & register the defined agars
+
+		System.out.println("Create & register the defined agars");
 		for (XMLParser anAgarRoot : worldRoot.buildSetParser("agar"))
 			agarList.add(new Agar(aSim, anAgarRoot));
 
-		// Create & register the defined domains
+		System.out.println("Create & register the defined domains");
 		for (XMLParser aDomainRoot : worldRoot.buildSetParser("computationDomain"))
 			domainList.add(new Domain(aSim, aDomainRoot));
 

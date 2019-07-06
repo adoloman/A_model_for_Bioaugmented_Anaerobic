@@ -628,19 +628,24 @@ public class Simulator {
     public void createWorld() {
         // Creation of the world
         try {
-            //System.out.print("\t World: \n");
+            System.out.print("\t World: \n");
             XMLParser parser = new XMLParser(_protocolFile.getChildElement("world"));
             world = new World();
             world.init(this, parser);
 
+            System.out.print("Init agars: \n");
             for (Agar anAgar : world.agarList)
                 anAgar.initialize();
             // now set the bulk concentrations if it is needed
+            System.out.print("useBulkFile=" + useBulkFile);
             if (useBulkFile) recreateBulkConditions();
 
             //System.out.println("\t done");
         } catch (Exception e) {
+            System.out.print("Simulator.createWorld() : error met");
             LogFile.writeLog("Simulator.createWorld() : error met");
+            System.out.println(e);
+            e.printStackTrace();
             System.exit(-1);
         }
     }

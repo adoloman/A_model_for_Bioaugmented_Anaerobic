@@ -612,6 +612,8 @@ public class XMLParser implements Serializable {
 			return Class.forName(prefix).newInstance();
 		} catch (Exception e) {
 			LogFile.writeLog("Unable to create class");
+			System.out.println(e);
+			e.printStackTrace();
 			return null;
 		}
 	}

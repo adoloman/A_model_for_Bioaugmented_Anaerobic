@@ -121,12 +121,13 @@ public class Bulk {
 			String isconst = parser.getParam("isConstant");
 			System.out.println("isconst"+isconst);
 			//if (isconst != null){
-			if (isconst != null)
-
+			if (isconst != null) {
 				_isConstant[soluteIndex] = Boolean.valueOf(isconst);
+			}
 			//}
 			// dilution of the solute
 			//COMMENT REMOVED BY HONEY
+			System.out.println("_bulkIsConstant=" + _bulkIsConstant);
 			if(!_bulkIsConstant){
 
 				if(!_isConstant[soluteIndex]){

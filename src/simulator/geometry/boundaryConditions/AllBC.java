@@ -57,6 +57,7 @@ public abstract class AllBC {
      * Generic constructor called to dynamically instanciate a child class object
      */
     public static AllBC staticBuilder(XMLParser root, Simulator aSim, Domain aDomain) {
+        System.out.println("staticBuilder begin");
         // Create the object
         AllBC out = (AllBC) root.instanceCreator("simulator.geometry.boundaryConditions");
 
@@ -65,6 +66,7 @@ public abstract class AllBC {
 
         dcIn = new DiscreteVector();
         dcOut = new DiscreteVector();
+        System.out.println("staticBuilder end");
 
         return out;
     }
