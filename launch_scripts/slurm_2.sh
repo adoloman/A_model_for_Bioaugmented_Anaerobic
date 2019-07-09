@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --partition=kyiv
+#SBATCH --partition=partition_name
 
 # don't forget to install JDK8 and povray.
 # for Fedora: dnf -y install java-1.8.0-openjdk-devel povray
