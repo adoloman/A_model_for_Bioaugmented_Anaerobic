@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --nodes=1  
-#SBATCH --partition=kyiv
+#SBATCH --nodes=1
+#SBATCH --partition=partition_name
 
 # don't forget to install JDK8 and povray.
-# for Fedora: dnf -y install java-1.8.0-openjdk-devel povray 
+# for Fedora: dnf -y install java-1.8.0-openjdk-devel povray
 
 # the software is located on shared folder
 shared_software_folder='/storage/software/iDynoMICs'
