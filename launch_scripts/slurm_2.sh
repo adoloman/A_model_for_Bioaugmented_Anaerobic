@@ -31,9 +31,9 @@ cp -r ${DYNO_SHARED_PATH} ${LOCAL_SOFTWARE_FOLDER}
 # running calculations
 echo "$DYNO_LOCAL_PATH'/launch_scripts/launch.sh'"
 sh $DYNO_LOCAL_PATH'/launch_scripts/launch.sh'
-
+#
 # copying calculation_results
-mkdir /storage/results -p
-cp -R $DYNO_LOCAL_PATH'/results/*' /storage/results/*
+mkdir -p /storage/results/$SLURM_JOB_ID
+cp -R $DYNO_LOCAL_PATH'/results/*' /storage/results/$SLURM_JOB_ID/
 # removing distro
 rm -rf "$DYNO_LOCAL_PATH"
